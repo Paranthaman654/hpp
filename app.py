@@ -55,3 +55,6 @@ input_df = pd.DataFrame([input_dict])[feature_names]
 if st.button("Predict Price"):
     price = model.predict(input_df)[0]
     st.success(f"💰 Estimated Sale Price: ₹{int(price):,}")
+
+
+# Added prediction feature
