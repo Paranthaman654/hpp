@@ -21,3 +21,6 @@ This project predicts the sale price of a house based on features like area, siz
 pip install -r requirements.txt
 streamlit run app.py
 
+# Chennai Housing Price Prediction
+
+Machine learning project for predicting Chennai house prices.
